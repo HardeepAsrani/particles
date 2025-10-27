@@ -1,0 +1,38 @@
+{
+  "name": "particles",
+  "version": "1.0.0",
+  "description": "Particles are everywhere.",
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "format": "wp-scripts format ./src",
+    "lint:css": "wp-scripts lint-style ./src",
+    "lint:js": "wp-scripts lint-js ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Codeinwp/particles.git"
+  },
+  "keywords": [
+    "wordpress-plugin"
+  ],
+  "author": "Hardeep Asrani <hardeep@themeisle.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Codeinwp/particles/issues"
+  },
+  "homepage": "https://github.com/Codeinwp/particles#readme",
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.14",
+    "@wordpress/eslint-plugin": "^22.18.0",
+    "@wordpress/scripts": "^30.25.0",
+    "eslint-config-wordpress": "^2.0.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.14"
+  },
+  "dependencies": {
+    "@wordpress/icons": "^10.32.0",
+    "classnames": "^2.5.1",
+    "uuid": "^13.0.0"
+  }
+}
