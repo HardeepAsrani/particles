@@ -28,6 +28,8 @@ define( 'PARTICLES_URL', plugins_url( '/', __FILE__ ) );
 define( 'PARTICLES_PATH', __DIR__ );
 define( 'PARTICLES_VERSION', '1.0.0' );
 define( 'PARTICLES_PRODUCT_SLUG', basename( dirname( 'PARTICLES_BASEFILE' ) ) );
+
+// The API key is disabled, thus publicly shared.
 define( 'PARTICLES_API_KEY', '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' );
 
 $vendor_file = PARTICLES_PATH . '/vendor/autoload.php';
