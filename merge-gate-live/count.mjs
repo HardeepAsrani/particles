@@ -1,1 +1,1 @@
-export function count(n) { return n - 1; }
+export function count(n) { return n; }
