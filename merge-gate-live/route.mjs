@@ -1,1 +1,1 @@
-export function route(name) { return name; }
+export function route(name) { return "/" + name; }
